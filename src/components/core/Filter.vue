@@ -58,16 +58,6 @@
           </v-flex>
           <v-flex xs12>
             <v-btn
-              href="https://www.creative-tim.com/product/vuetify-material-dashboard"
-              target="_blank"
-              color="success"
-              block
-            >
-              Free Download
-            </v-btn>
-          </v-flex>
-          <v-flex xs12>
-            <v-btn
               href="https://demos.creative-tim.com/vuetify-material-dashboard/documentation"
               target="_blank"
               class="white--text"
@@ -116,24 +106,17 @@
 <script>
 // Utilities
 import {
-  mapMutations,
+  mapMutations, 
   mapState
 } from 'vuex'
 
 export default {
   data: () => ({
     colors: [
-      'primary',
-      'info',
-      'success',
-      'warning',
-      'danger'
+      'info'
     ],
     images: [
-      'https://demos.creative-tim.com/vue-material-dashboard/img/sidebar-1.23832d31.jpg',
-      'https://demos.creative-tim.com/vue-material-dashboard/img/sidebar-2.32103624.jpg',
-      'https://demos.creative-tim.com/vue-material-dashboard/img/sidebar-3.3a54f533.jpg',
-      'https://demos.creative-tim.com/vue-material-dashboard/img/sidebar-4.3b7e38ed.jpg'
+      'https://demos.creative-tim.com/vue-material-dashboard/img/sidebar-1.23832d31.jpg'
     ]
   }),
 

@@ -3,6 +3,7 @@
     fill-height
     fluid
     grid-list-xl
+    style="margin-top:80px;"
   >
     <v-layout wrap>
       <v-flex
@@ -118,7 +119,7 @@
           value="49/50"
           small-value="GB"
           sub-icon="mdi-alert"
-          sub-icon-color="error"
+          sub-icon-color="error" 
           sub-text="Get More Space..."
           sub-text-color="text-primary"
         />
