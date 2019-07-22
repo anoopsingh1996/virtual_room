@@ -1,6 +1,6 @@
 <template>
 
-    <v-container fill-height="true">
+    <v-container fill-height="true" style="margin-top:75px;">
         <v-layout>
             <v-flex
                 md12
@@ -131,7 +131,5 @@
 </script>
 
 <style>
-    .my-input .v-input .v-input__slot {
-        border-radius: 100px;
-    }
+ 
 </style>
