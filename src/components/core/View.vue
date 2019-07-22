@@ -13,7 +13,7 @@
 export default {
   metaInfo () {
     return {
-      title: 'Vertual Room : Sangath'
+      title: 'Sangath'
     }
   }
 }
