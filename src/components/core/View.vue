@@ -21,6 +21,7 @@ export default {
 
 <style>
 #core-view {
+  height: 100%;
   padding-bottom: 100px;
 }
 </style>
